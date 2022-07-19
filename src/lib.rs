@@ -1,5 +1,5 @@
 #![warn(missing_docs)]
-#![feature(test)]
+#![feature(test)] //requires nightly build
 //! # bevy_blender
 //!
 //! [bevy_blender](https://github.com/jeraldamo/bevy_blender) is a [Bevy](https://bevyengine.org) library that allows you to use assets created in [Blender](https://blender.org) directly from the .blend file.

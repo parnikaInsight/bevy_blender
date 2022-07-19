@@ -10,6 +10,7 @@ license = "MIT"
 keywords = ["gamedev", "bevy", "blender"]
 categories = ["game-development"]
 
+#cargo +nightly run --example=object
 
 [dependencies]
 blend = ">=0.6.1"
@@ -24,6 +25,7 @@ bevy_pbr = "0.7.0"
 bevy_transform = "0.7.0"
 anyhow = ">=1.0"
 thiserror = ">=1.0"
+web-sys = "0.3.53"
 
 [dev-dependencies]
 
