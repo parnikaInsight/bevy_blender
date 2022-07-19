@@ -1,5 +1,5 @@
-use bevy_math::Vec3;
-use bevy_render::{
+use bevy::math::Vec3;
+use bevy::render::{
     mesh::{Indices, Mesh},
     render_resource::PrimitiveTopology,
 };

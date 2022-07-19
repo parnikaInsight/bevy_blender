@@ -1,5 +1,5 @@
-use bevy_pbr::prelude::StandardMaterial;
-use bevy_render::color::Color;
+use bevy::pbr::prelude::StandardMaterial;
+use bevy::render::color::Color;
 use blend::runtime::Instance;
 
 use crate::BevyBlenderError;

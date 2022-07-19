@@ -14,18 +14,21 @@ categories = ["game-development"]
 
 [dependencies]
 blend = ">=0.6.1"
-bevy = "0.7.0"
-bevy_app = "0.7.0"
-bevy_asset = "0.7.0"
-bevy_ecs = "0.7.0"
-bevy_render = "0.7.0"
-bevy_math = "0.7.0"
-bevy_utils = "0.7.0"
-bevy_pbr = "0.7.0"
-bevy_transform = "0.7.0"
+bevy = {git = "https://github.com/paxsethorld/bevy.git", branch = "pax"}
+
+#bevy = "0.7.0"
+# bevy_app = "0.7.0"
+# bevy_asset = "0.7.0"
+# bevy_asset = {git = "https://github.com/paxsethorld/bevy/tree/pax/crates/bevy_asset", branch = "pax"}
+# bevy_ecs = "0.7.0"
+# bevy_render = "0.7.0"
+# bevy_math = "0.7.0"
+# bevy_utils = "0.7.0"
+# bevy_pbr = "0.7.0"
+# bevy_transform = "0.7.0"
 anyhow = ">=1.0"
 thiserror = ">=1.0"
-#web-sys = "0.3.53" #runs with or without this
+#web-sys = "0.3.58" #runs with or without this
 
 [dev-dependencies]
 
