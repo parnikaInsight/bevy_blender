@@ -25,7 +25,7 @@ bevy_pbr = "0.7.0"
 bevy_transform = "0.7.0"
 anyhow = ">=1.0"
 thiserror = ">=1.0"
-web-sys = "0.3.53"
+#web-sys = "0.3.53" #runs with or without this
 
 [dev-dependencies]
 
